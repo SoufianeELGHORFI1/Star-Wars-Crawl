@@ -1,0 +1,64 @@
+body {
+    height: 100vh;
+    margin: 0%;
+    overflow: hidden;
+    background-image: url(space.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    
+}
+img{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    opacity: 0;
+    animation: logo 6s linear 0s;
+}
+@keyframes logo {
+    0%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.titre{
+    text-align: center;
+}
+  
+  .star-wars {
+    position: relative;
+    color: #feda4a;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    transform: perspective(300px) rotateX(25deg);
+    transform-origin: 50% 100%;
+    text-align: justify;
+    width: 80vh;
+  }
+  @keyframes intro {
+      0%{
+          top: 100%;
+
+      }
+      100%{
+          top: -150%;
+      }
+  }
+  .texte{
+      animation: intro 50s linear 3s;
+      top: 100%;
+      position: absolute;
+  }
+  .fin{
+      text-align: center
+  }
+  
