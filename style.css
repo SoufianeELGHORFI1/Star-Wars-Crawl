@@ -39,7 +39,7 @@ img{
     font-size: 50px;
     font-weight: 900;
     letter-spacing: 2px;
-    transform: perspective(300px) rotateX(25deg);
+    transform: perspective(300px) rotateX(15deg);
     transform-origin: 50% 100%;
     text-align: justify;
     width: 80vh;
